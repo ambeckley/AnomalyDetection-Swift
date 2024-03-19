@@ -1,0 +1,24 @@
+{
+  "originHash" : "d09da550c8affa2f31047b4b1b230af7fd5b407293107cf44063229ef9fcd20e",
+  "pins" : [
+    {
+      "identity" : "normal-and-student-t-distributions-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ambeckley/Normal-and-Student-T-distributions-Swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1fc223039236e754fa730b46d3f2861b3c3945f1"
+      }
+    },
+    {
+      "identity" : "seasonal-trends-decomposition-stl-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ambeckley/Seasonal-Trends-Decomposition-STL-Swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "dec98db36a04e5f9210ec80009705b336f7a29c3"
+      }
+    }
+  ],
+  "version" : 3
+}

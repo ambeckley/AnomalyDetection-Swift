@@ -75,6 +75,11 @@ public struct AnomalyDetector {
     }
     
     func detect_anoms(data: [Double], num_obs_per_period: user_size_t, k: Double, alpha: Double, one_tail: Bool, upper_tail: Bool, verbose: Bool) throws  -> [user_size_t] {
+        var k = k
+        if k <= 0.0 {
+            k = 0.1
+        }
+        
         let n = data.count
         guard !(n < num_obs_per_period  * 2) else {
         print("series has less than two periods")
